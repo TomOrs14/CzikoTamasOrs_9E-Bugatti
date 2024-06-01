@@ -1,0 +1,119 @@
+body{
+  background-image: url(../img/EURO2.png);
+  display: block;
+  margin: auto;
+  width: 50%;
+
+  font-family: serif;
+  font-size: 1em;
+  color: black;
+}
+
+header{    
+  background-position: center center;
+  background-image: url(../img/BUGATTI_hatter.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 410px;
+  font-size: 350%;
+}
+
+/* START - navigation bar */
+.navbar{
+  font-weight: lighter;
+  margin-bottom: 10px;
+  padding: 0px;
+  font-size: 110%;
+  letter-spacing: 1px;
+}
+
+ul#menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul#menu li {
+  float: left;
+}
+
+ul#menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul#menu li a:hover {
+  color: black;
+  background-color: grey;/* #111 */
+}
+
+ul#menu li a:active {
+  background-color: #4caf50;
+}
+/* END - navigation bar */
+
+div {
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+  text-indent: 15px;
+  background-color: hsl(294, 23%, 75%);
+  font-size: 130%;
+  letter-spacing: 1px;
+}
+
+h2{
+  text-align: center;  
+  color: rgb(0, 0, 0);
+  background-color: rgba(102, 53, 251, 0.322);
+}
+
+h1{
+  text-align: center;
+}
+
+b{
+  font-weight: bold;
+  color: rgb(246, 6, 6);  
+}
+
+a:link, a:visited {
+  color: black;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color:  rgba(102, 53, 251, 0.322);
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: hsl(294, 23%, 75%);
+  color: black;
+}
+
+ol {
+  display: inline-table;
+  padding: 0em;
+  text-align: left;
+  list-style-type: decimal;
+}
+
+#cím{
+  color:rgb(0, 0, 0);
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: auto;
+}
